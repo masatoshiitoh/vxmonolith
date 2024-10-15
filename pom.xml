@@ -183,6 +183,7 @@
           <arguments>
             <argument>run</argument>
             <argument>${main.verticle}</argument>
+            <argument>-cluster</argument>
           </arguments>
         </configuration>
       </plugin>
