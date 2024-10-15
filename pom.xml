@@ -52,9 +52,11 @@
       <groupId>io.vertx</groupId>
       <artifactId>vertx-grpc-server</artifactId>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/io.vertx/vertx-amqp-bridge -->
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-amqp-bridge</artifactId>
+      <version>3.9.16</version>
     </dependency>
     <dependency>
       <groupId>io.vertx</groupId>
@@ -67,6 +69,7 @@
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-hazelcast</artifactId>
+      <version>4.4.0</version>
     </dependency>
     <dependency>
       <groupId>io.vertx</groupId>
