@@ -66,11 +66,15 @@
       <groupId>io.vertx</groupId>
       <artifactId>vertx-grpc-context-storage</artifactId>
     </dependency>
+
+
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-hazelcast</artifactId>
       <version>4.5.11</version>
     </dependency>
+
+
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-micrometer-metrics</artifactId>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hazelcast xmlns="http://www.hazelcast.com/schema/config"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.hazelcast.com/schema/config
+           https://www.hazelcast.com/schema/config/hazelcast-config-5.3.xsd">
+  <properties>
+    <property name="hazelcast.discovery.enabled">true</property>
+    <property name="hazelcast.mancenter.enabled">false</property>
+    <property name="hazelcast.memcache.enabled">false</property>
+    <property name="hazelcast.rest.enabled">false</property>
+    <property name="hazelcast.wait.seconds.before.join">0</property>
+  </properties>
+  <network>
+    <join>
+      <multicast enabled="false"/>
+      <tcp-ip enabled="true">
+        <member-list>
+          <member>192.168.86.131</member>
+          <member>devenv</member>
+          <member>debianvm</member>
+        </member-list>
+
+      </tcp-ip>
+
+    </join>
+    <interfaces enabled="true">
+      <interface>192.168.86.*</interface>
+    </interfaces>
+  </network>
+</hazelcast>

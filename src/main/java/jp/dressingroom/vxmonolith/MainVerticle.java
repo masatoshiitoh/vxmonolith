@@ -17,6 +17,10 @@ public class MainVerticle extends AbstractVerticle {
         startPromise.fail(ar.cause());
       }
     });
+    vertx.eventBus().consumer("quarkus.test", message -> {
+      System.out.println(message.body().toString());
+      message.reply("Hello World");
+    });
 
 
   }
