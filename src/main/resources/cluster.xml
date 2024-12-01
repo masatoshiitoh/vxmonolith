@@ -22,6 +22,8 @@
       <tcp-ip enabled="true">
         <member-list>
           <member>192.168.86.131</member>
+          <member>192.168.86.132</member>
+          <member>192.168.86.133</member>
           <member>devenv</member>
         </member-list>
 
